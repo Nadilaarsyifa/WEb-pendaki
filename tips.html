@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Footer konten dan modal</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body class="tips-page">
+    <!--header-->
+    <nav class="navbar navbar-expand bg-secondary navbar-dark">
+      <div class="container-lg">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-fingerprint"></i> Jejak Pendaki
+        </a>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end mt-2 border-success">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    ><i class="bi bi-person-circle"></i> Profil</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><i class="bi bi-key-fill"></i> Ubah Password</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><i class="bi bi-gear"></i> Pengaturan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><i class="bi bi-globe2"></i> Pilihan Bahasa</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><i class="bi bi-box-arrow-left"></i> Logout</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end header-->
+
+    <div class="container-lg">
+      <div class="row">
+        <!--sidebar navigasi-->
+        <div class="col-lg-3">
+          <nav
+            class="navbar navbar-expand-lg bg-body-tertiary rounded mt-2 border"
+          >
+            <div class="container-lg">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-start"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    Explorer
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+
+                <div class="offcanvas-body">
+                  <ul class="nav nav-pills flex-column flex-grow-1">
+                    <li class="nav-item">
+                      <a class="nav-link  link-dark " aria-current="page" href="index.html"
+                        >Beranda</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-dark" href="tabel.html">Pendaki legendaris</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active link-dark" href="tips.html">Tips</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-dark" href="panduan.html">Panduan</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-dark" href="berbagi.html">Berbagi</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <!--end sidebar navigasi-->
+
+        <!--content-->
+        
+            <div class="col-lg-9">
+                <div class="card mt-2">
+                  <div class="card-header">Tips Mendaki Gunung Bromo</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Persiapan dan Tips</h5>
+                    <p class="card-text">
+                      Mendaki Gunung Bromo bisa menjadi pengalaman yang menakjubkan bagi para pendaki, terutama bagi mereka yang baru memulai. Berikut adalah beberapa tips yang bisa membantu Anda merencanakan pendakian Anda:
+                    </p>
+              
+                    <ul>
+                      <li>
+                        <strong>Persiapan Fisik:</strong> Meskipun pendakian ke Gunung Bromo relatif mudah, tetaplah mempersiapkan fisik Anda dengan berolahraga secara teratur sebelum pendakian.
+                      </li>
+                      <li>
+                        <strong>Persiapan Mental:</strong> Siapkan mental Anda untuk menghadapi perjalanan yang mungkin menantang, termasuk cuaca yang berubah-ubah dan medan yang berbatu.
+                      </li>
+                      <li>
+                        <strong>Persiapan Peralatan:</strong> Pastikan Anda membawa peralatan hiking yang sesuai, termasuk sepatu hiking yang nyaman, pakaian hangat, dan perlengkapan lainnya sesuai kebutuhan.
+                      </li>
+                      <li>
+                        <strong>Perencanaan Rute:</strong> Sebelum berangkat, perhatikan rute pendakian yang akan Anda ambil dan persiapkan navigasi serta informasi mengenai jalur yang akan Anda lewati.
+                      </li>
+                    </ul>
+              
+                    <div class="text-center">
+                      <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!-- end content-->
+      </div>
+
+      <!-- Footer-->
+      <div class="text-center bg-light fixed-bottom py-2">
+        Copyright 2024 Nadila Arsyifa //bootstrap
+      </div>
+      <!-- end Footer-->
+    </div>
+
+    <!-- Modal-->
+    <div
+      class="modal fade modal-xl"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen-md-down">
+        <div class="modal-content">
+          <div class="modal-header bg-secondary text-white">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Profil Pendaki
+            </h1>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="https://via.placeholder.com/150" 
+                    class="img -fluid rounded-circle mb-3"
+                    alt="Profil Pendaki"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <action="">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Email </label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Nama</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="Nama Anda"
+                      />
+                    </div>
+                    <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      >Jenis kelamin</label
+                    >
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Laki-laki</option>
+                      <option value="2">Perempuan</option>
+                    </select>
+                    </div>
+                    <div class="mb-3">
+                        <label
+                          for="exampleFormControlTextarea1"
+                          class="form-label"
+                          >Alamat</label
+                        >
+                        <textarea
+                          class="form-control"
+                          id="exampleFormControlTextarea1"
+                          rows="3"
+                        ></textarea>
+                      </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Pendakian Terakhir</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="Nama Gunung"
+                      />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"
+                          >Kategori Pendaki</label
+                        >
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Pemula</option>
+                    
+                      <option value="2">Menengah</option>
+                      <option value="3">Lanjutan</option>
+                      <option value="4">Ekspert</option>
+                      <option value="5">profesional</option>
+                    </select>
+                    </div>
+                    <div class="mb-3">
+                        <label
+                          for="exampleFormControlTextarea1"
+                          class="form-label"
+                          >Prestasi</label
+                        >
+                        <textarea
+                          class="form-control"
+                          id="exampleFormControlTextarea1"
+                          rows="3"
+                        ></textarea>
+                      </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            <button type="button" class="btn btn-primary">
+              Simpan Perubahan
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      <script>
+        $(document).ready(function(){
+             if($('body').hasClass('Beranda-page')){
+              $('.nav-link[href="index.html"]').removeclass ('link-dark').addClass('active link-light');
+  
+             } else if($('body').hasClass('table-page')){
+              $('.nav-link[href="tabel.html"]').removeclass ('link-dark').addClass('active link-light');
+             
+          }
+             else if($('body').hasClass('tips-page')){
+              $('.nav-link[href="tips.html"]').removeclass ('link-dark').addClass('active link-light');
+             }
+             else if($('body').hasClass('panduan-page')){
+              $('.nav-link[href="panduan.html"]').removeclass ('link-dark').addClass('active link-light');
+             }
+             else if($('body').hasClass('berbagi-page')){
+              $('.nav-link[href="berbagi.html"]').removeclass ('link-dark').addClass('active link-light');
+             }
+  
+  
+          });
+      </script>
+  </body>
+</html>
